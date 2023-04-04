@@ -1,0 +1,70 @@
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/bottom.css");
+@import url("components/button.css");
+
+
+
+body {
+	margin: 0px;
+	background-color: beige;
+}
+
+.title { 
+font-family: 'Roboto', sans-serif;
+font-size: 50px;
+text-align: center;
+margin: 25px 50px 30px 50px;
+  letter-spacing: 30px;
+  position: relative;
+  -webkit-box-reflect: below -40px linear-gradient(90deg,transparent, rgba(0,0,0,.2));
+  
+  font-weight: bold;
+
+	}
+
+
+
+ h2 {
+ 	font-family: 'Kaushan Script', cursive;
+	font-size: 30px;
+	font-weight: lighter;
+	text-align: center;
+	margin: 5px 0px 5px 0px;
+ }
+ #subtitle {
+background: radial-gradient(circle, rgba(213,255,112,1) 6%, rgba(0,0,0,1) 96%);
+opacity: 0.8;
+border-style: ridge;
+}
+
+ }
+ h2.cards{
+ 	font-size: 40px;
+ }
+ img {
+ 	width: 50px;
+ }
+ .icons {
+  padding: 10px;
+width: 80px;
+  height: 80px;
+  border-radius: 5%;
+ background-color: white;
+ margin: 10px 50px 10px 50px;
+ 
+}
+ .icons:hover {
+  
+  opacity: 0.5;
+   transition: 0.3s;
+   background: rgba(213,255,112,1);
+   width: 90px;
+   height: 90px;
+    margin: 0px 40px 0px 40px;
+}
+div {
+	text-align: center;
+}
+
